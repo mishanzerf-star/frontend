@@ -1,5 +1,5 @@
 "use client";
-<h1>Hello</h1>
+
 import { useState } from "react";
 
 export default function Home() {
