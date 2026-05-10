@@ -6,9 +6,12 @@ export default function Home() {
   const [connected, setConnected] = useState(false);
   const [page, setPage] = useState("home");
 
-  const renderPage = () => {
-    if (page === "servers") {
-      return (
+  return (
+    <div>
+      <h1>Hello</h1>
+    </div>
+  );
+}
         <div className="w-full max-w-md space-y-4">
           <h2 className="text-3xl font-bold mb-4 text-center">
             🌍 Серверы
